@@ -1,0 +1,13 @@
+crewai
+langchain
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+chromadb
+pypdf
+litellm
+sqlalchemy
+python-dotenv
+google-generativeai
+fastapi
+uvicorn

@@ -1,0 +1,8 @@
+In order to run the program:
+1. run the run_setup.bat it should download every dependancy and library required automatically you can check the requirements for the libraries etc. after that it opens the website and you can start using it
+
+2. On the first run after downloading the dependancies program may not initialize and could give some errors these are not important you just have to close and then reopen it 
+
+Important Info 1.: If the download button is not working its high likely because of the browser settings or ad blockers 
+
+Important Info 2.:There is a Very Rare Chance that the AI gets Stuck in a thought loop and forgets to respond We have 5 minute time out for that if it gives an error about it thats why

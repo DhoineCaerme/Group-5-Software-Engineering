@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cogito Requiem | De-risking Ambiguous Decisions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="images/logo-cogito-requiem.png" alt="Cogito Requiem Logo" class="brand-image">
+            <span>Cogito Requiem</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#concept">Concept</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#demo">Live Demo</a></li>
+            <li><a href="#applications">Applications</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg">
+            <div class="grid-lines"></div>
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-tag">AI-Powered Decision Intelligence</p>
+            <h1 class="hero-title">
+                <span class="title-line accent">Cogito Requiem</span>
+            </h1>
+            <p class="hero-subtitle">
+                A multi-agent system that leverages structured debate between AI agents 
+                to surface hidden risks, challenge assumptions, and synthesize optimal 
+                decisions from ambiguity.
+            </p>
+            <div class="hero-cta">
+                <a href="#demo" class="btn btn-primary">Experience the Demo</a>
+                <a href="#concept" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="agent-orbit">
+                <div class="central-node">
+                    <span>Decision</span>
+                </div>
+                <div class="orbit-ring ring-1">
+                    <div class="agent-node thesis">
+                        <span class="agent-label">Thesis</span>
+                    </div>
+                </div>
+                <div class="orbit-ring ring-2">
+                    <div class="agent-node antithesis">
+                        <span class="agent-label">Antithesis</span>
+                    </div>
+                </div>
+                <div class="orbit-ring ring-3">
+                    <div class="agent-node synthesis">
+                        <span class="agent-label">Synthesis</span>
+                    </div>
+                </div>
+                <svg class="connection-lines" viewBox="0 0 400 400">
+                    <line x1="200" y1="200" x2="200" y2="80" class="conn-line" />
+                    <line x1="200" y1="200" x2="320" y2="260" class="conn-line" />
+                    <line x1="200" y1="200" x2="80" y2="260" class="conn-line" />
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <section id="concept" class="section concept-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Philosophy</span>
+                <h2>What is Dialectical Reasoning?</h2>
+            </div>
+            <div class="concept-grid">
+                <div class="concept-card">
+                    <div class="card-icon thesis-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v12M6 12h12"/>
+                        </svg>
+                    </div>
+                    <h3>Thesis</h3>
+                    <p>An initial proposition or argument is presented. The <strong>Advocate Agent</strong> builds the strongest possible case for a particular decision path.</p>
+                </div>
+                <div class="concept-card">
+                    <div class="card-icon antithesis-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M6 12h12"/>
+                        </svg>
+                    </div>
+                    <h3>Antithesis</h3>
+                    <p>A counter-proposition challenges the thesis. The <strong>Critic Agent</strong> identifies weaknesses, risks, and alternative perspectives.</p>
+                </div>
+                <div class="concept-card">
+                    <div class="card-icon synthesis-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M8 12l3 3 5-6"/>
+                        </svg>
+                    </div>
+                    <h3>Synthesis</h3>
+                    <p>A reconciliation emerges. The <strong>Mediator Agent</strong> integrates valid points from both sides into a refined, de-risked decision.</p>
+                </div>
+            </div>
+            <div class="philosophy-note">
+                <blockquote>
+                    "The dialectic method is not merely a debate technique—it's a systematic approach to uncovering truth through the collision of opposing ideas."
+                </blockquote>
+                <cite>— Inspired by Hegelian Dialectics</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-it-works" class="section workflow-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">The Process</span>
+                <h2>How the Framework Operates</h2>
+            </div>
+            <div class="workflow-timeline">
+                <div class="timeline-track"></div>
+                <div class="workflow-step" data-step="1">
+                    <div class="step-marker">1</div>
+                    <div class="step-content">
+                        <h4>Problem Ingestion</h4>
+                        <p>An ambiguous decision scenario is fed into the system with all relevant context and constraints.</p>
+                    </div>
+                </div>
+                <div class="workflow-step" data-step="2">
+                    <div class="step-marker">2</div>
+                    <div class="step-content">
+                        <h4>Agent Initialization</h4>
+                        <p>Multiple specialized AI agents are instantiated with distinct reasoning personas and objectives.</p>
+                    </div>
+                </div>
+                <div class="workflow-step" data-step="3">
+                    <div class="step-marker">3</div>
+                    <div class="step-content">
+                        <h4>Dialectical Rounds</h4>
+                        <p>Agents engage in structured debate rounds, each building upon previous arguments and counter-arguments.</p>
+                    </div>
+                </div>
+                <div class="workflow-step" data-step="4">
+                    <div class="step-marker">4</div>
+                    <div class="step-content">
+                        <h4>Risk Extraction</h4>
+                        <p>Key risks, assumptions, and blindspots are systematically identified and categorized.</p>
+                    </div>
+                </div>
+                <div class="workflow-step" data-step="5">
+                    <div class="step-marker">5</div>
+                    <div class="step-content">
+                        <h4>Synthesis Generation</h4>
+                        <p>A final synthesized recommendation emerges with explicit risk mitigations and confidence levels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="section demo-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Interactive</span>
+                <h2>Live Debate Simulation</h2>
+                <p class="section-desc">Watch AI agents debate a real ambiguous decision in real-time</p>
+            </div>
+            
+            <div class="demo-container">
+                <div class="scenario-selector">
+                    <label>Enter your decision scenario or question:</label>
+                    <input type="text" id="scenarioInput" placeholder="e.g., Should we adopt a Microservices architecture or stick to a Monolith?" />
+                    <button id="startDebate" class="btn btn-primary">Start Debate</button>
+                </div>
+
+                <div class="debate-arena">
+                    <div class="agent-panel thesis-panel">
+                        <div class="panel-header">
+                            <div class="agent-avatar thesis-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M12 6v12M6 12h12"/>
+                                </svg>
+                            </div>
+                            <div class="agent-info">
+                                <h4>Advocate Agent</h4>
+                                <span class="agent-role">Building the Case</span>
+                            </div>
+                            <div class="agent-status" id="thesisStatus"></div>
+                        </div>
+                        <div class="panel-content" id="thesisContent">
+                            <p class="placeholder-text">Waiting for debate to begin...</p>
+                        </div>
+                    </div>
+
+                    <div class="agent-panel antithesis-panel">
+                        <div class="panel-header">
+                            <div class="agent-avatar antithesis-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M6 12h12"/>
+                                </svg>
+                            </div>
+                            <div class="agent-info">
+                                <h4>Critic Agent</h4>
+                                <span class="agent-role">Challenging Assumptions</span>
+                            </div>
+                            <div class="agent-status" id="antithesisStatus"></div>
+                        </div>
+                        <div class="panel-content" id="antithesisContent">
+                            <p class="placeholder-text">Waiting for debate to begin...</p>
+                        </div>
+                    </div>
+
+                    <div class="agent-panel synthesis-panel full-width">
+                        <div class="panel-header">
+                            <div class="agent-avatar synthesis-avatar">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <path d="M8 12l3 3 5-6"/>
+                                </svg>
+                            </div>
+                            <div class="agent-info">
+                                <h4>Mediator Agent</h4>
+                                <span class="agent-role">Synthesizing Insights</span>
+                            </div>
+                            <div class="agent-status" id="synthesisStatus"></div>
+                        </div>
+                        <div class="panel-content" id="synthesisContent">
+                            <p class="placeholder-text">Synthesis will appear after debate rounds...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="risk-matrix" id="riskMatrix">
+                    <h4>Identified Risks & Mitigations</h4>
+                    <div class="risk-grid" id="riskGrid">
+                        <p class="placeholder-text">Risks will be extracted during the debate...</p>
+                    </div>
+                </div>
+
+                <div class="confidence-meter">
+                    <h4>Decision Confidence</h4>
+                    <div class="meter-container">
+                        <div class="meter-bar" id="confidenceBar"></div>
+                        <span class="meter-value" id="confidenceValue">—</span>
+                    </div>
+                    <div class="meter-labels">
+                        <span>High Risk</span>
+                        <span>Moderate</span>
+                        <span>De-risked</span>
+                    </div>
+                </div>
+
+                <!-- Download Controls -->
+                <div class="download-controls">
+                    <button class="btn btn-secondary" id="btnDownloadMd">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <path d="M9 13h6M12 10v6"/>
+                        </svg>
+                        Download as MD
+                    </button>
+                    <button class="btn btn-secondary" id="btnDownloadWord">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                        Download as Word
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="applications" class="section applications-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Use Cases</span>
+                <h2>Real-World Applications</h2>
+            </div>
+            <div class="applications-grid">
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h4>Strategic Planning</h4>
+                    <p>Evaluate market entry strategies, M&A decisions, and long-term business pivots with structured adversarial analysis.</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/>
+                            <path d="M3 9h18M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h4>Product Development</h4>
+                    <p>Debate feature prioritization, technology choices, and resource allocation with multiple perspective analysis.</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h4>Risk Assessment</h4>
+                    <p>Systematically identify and evaluate risks in compliance, security, and operational decisions.</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h4>Policy Making</h4>
+                    <p>Analyze complex policy decisions with multi-stakeholder perspectives and impact assessments.</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h4>Hiring Decisions</h4>
+                    <p>Evaluate candidates and team compositions with bias-checking adversarial agents.</p>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
+                            <polyline points="17 6 23 6 23 12"/>
+                        </svg>
+                    </div>
+                    <h4>Investment Analysis</h4>
+                    <p>Debate investment opportunities with bull and bear case agents for balanced portfolio decisions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">◈</span>
+                    <span>Cogito Requiem</span>
+                </div>
+                <p class="footer-note">An educational presentation on AI-powered decision intelligence systems.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#concept">Concept</a>
+                <a href="#how-it-works">Process</a>
+                <a href="#demo">Demo</a>
+                <a href="#applications">Applications</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
